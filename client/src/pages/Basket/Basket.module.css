@@ -1,0 +1,22 @@
+.basket {
+    width: 500px;
+    margin: 20px auto;
+}
+
+.basket_button {
+    color: #1f2b2c;
+    background-color: white;
+    padding: 10px 20px;
+    text-align:center;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%, #424275 50%, #424275);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    border: 1px solid #333341;
+}
+
+.basket_button:hover {
+    background-position: 0 0;
+    color:#fff;
+}

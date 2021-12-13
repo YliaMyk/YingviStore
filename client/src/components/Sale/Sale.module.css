@@ -1,0 +1,32 @@
+.sale{
+    background-image: url("./res/basground.png");
+    background-size: cover;
+    width: 800px;
+    height: 200px;
+}
+
+.sale_h2 {
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.sale_button {
+    margin: auto;
+    color: white;
+    border-radius: 2px;
+    background-color: inherit;
+    padding: 10px 20px;
+    text-align:center;
+    display: block;
+    background-image: linear-gradient(to left,transparent,transparent 50%, #4a56a6 50%, #4f60a4);
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: all .25s ease-in;
+    border: 1px solid rgba(255, 255, 255, 0.85);
+}
+
+.sale_button:hover {
+    background-position: 0 0;
+    color:#fff;
+}

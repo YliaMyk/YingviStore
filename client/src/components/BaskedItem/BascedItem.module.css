@@ -1,0 +1,32 @@
+.basked_items {
+    border: rgba(0, 0, 0, 0.79) 1px solid;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.basked_items_img {
+    width: 60px;
+}
+
+.basked_items_name {
+    margin-top: 10px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.basked_items_price {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #9b2339;
+    margin-right: 10px;
+}
+
+.basked_items_button {
+    margin-top: 10px;
+    height: 10px;
+    border: none;
+    background-color: white;
+    margin-right: 10px;
+}

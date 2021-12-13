@@ -1,0 +1,14 @@
+.container {
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_typeBar {
+    width: 30%;
+}
+
+.container_products {
+    width: 60%;
+}

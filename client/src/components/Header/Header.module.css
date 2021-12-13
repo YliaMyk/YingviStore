@@ -1,0 +1,38 @@
+header {
+    width: 100%;
+    border-bottom: black 1px solid;
+    overflow: hidden;
+}
+
+.container {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logo {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 500px;
+    overflow: hidden;
+}
+
+.header_nav_button {
+    padding-right: 30px;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    background-color: transparent;
+    font: inherit;
+    overflow: hidden;
+}
+
